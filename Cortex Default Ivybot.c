@@ -125,10 +125,14 @@ task main()
       motor[LeftDrive1]   = vexRT[Ch3];       // up = CW, right = CW
 if(vexRT[Btn5U]==1)
 	motor[LeftDrive2]   =  126;
+if(vexRT[Btn6U]==1)
+	motor[LeftDrive2]   =  0;
       motor[LeftDrive3]   =  vexRT[Ch2];       // up = CW, right = CW
       motor[RightDrive4]  = vexRT[Ch2];       // up = CW, right = CCW
-//if(vexRT[Btn5U]==1)
-//	motor[RightDrive5]   =  vexRT[Ch3];
+if(vexRT[Btn5U]==1)
+	motor[RightDrive5]   =  126;
+if(vexRT[Btn6U]==0)
+	motor[RightDrive5]   =  0;
  //      motor[RightDrive10] = -vexRT[Ch2];        // up = CCW
     }
     //---------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -138,10 +142,14 @@ if(vexRT[Btn5U]==1)
       motor[LeftDrive1]   = vexRT[Ch3];       // up = CW, right = CW
 if(vexRT[Btn5U]==1)
 	motor[LeftDrive2]   =  126;
+if(vexRT[Btn6U]==1)
+	motor[LeftDrive2]   =  0;
       motor[LeftDrive3]   =  vexRT[Ch2];       // up = CW, right = CW
       motor[RightDrive4]  = vexRT[Ch2];       // up = CW, right = CCW
-//if(vexRT[Btn5U]==1)
-//	motor[RightDrive5]   =  vexRT[Ch3];
+if(vexRT[Btn5U]==1)
+	motor[RightDrive5]   =  126;
+if(vexRT[Btn6U]==0)
+	motor[RightDrive5]   =  0;
 
       if((SensorValue[ana_6] < 200 && vexRT[Ch3Xmtr2] > 0) || (SensorValue[ana_5] < 200 && vexRT[Ch3Xmtr2] < 0))
       {
@@ -170,10 +178,14 @@ if(vexRT[Btn5U]==1)
       motor[LeftDrive1]   = vexRT[Ch3];       // up = CW, right = CW
 if(vexRT[Btn5U]==1)
 	motor[LeftDrive2]   =  126;
+if(vexRT[Btn6U]==1)
+	motor[LeftDrive2]   =  0;
       motor[LeftDrive3]   =  vexRT[Ch2];       // up = CW, right = CW
       motor[RightDrive4]  = vexRT[Ch2];       // up = CW, right = CCW
-//if(vexRT[Btn5U]==1)
-//	motor[RightDrive5]   =  vexRT[Ch3];
+if(vexRT[Btn5U]==1)
+	motor[RightDrive5]   =  126;
+if(vexRT[Btn6U]==0)
+	motor[RightDrive5]   =  0;
 
 
       if((SensorValue[ana_6] < 200 && vexRT[Ch3] > 0) || (SensorValue[ana_5] < 200 && vexRT[Ch3] < 0))
@@ -200,11 +212,14 @@ if(vexRT[Btn5U]==1)
       motor[LeftDrive1]   = vexRT[Ch3];       // up = CW, right = CW
 if(vexRT[Btn5U]==1)
 	motor[LeftDrive2]   =  126;
+if(vexRT[Btn6U]==1)
+	motor[LeftDrive2]   =  0;
       motor[LeftDrive3]   =  vexRT[Ch2];       // up = CW, right = CW
       motor[RightDrive4]  = vexRT[Ch2];       // up = CW, right = CCW
-//if(vexRT[Btn5U]==1)
-//	motor[RightDrive5]   =  vexRT[Ch3];
-
+if(vexRT[Btn5U]==1)
+	motor[RightDrive5]   =  126;
+if(vexRT[Btn6U]==0)
+	motor[RightDrive5]   =  0;
 
       if((SensorValue[ana_6] < 200 && vexRT[Ch3Xmtr2] > 0) || (SensorValue[ana_5] < 200 && vexRT[Ch3Xmtr2] < 0))
       {
